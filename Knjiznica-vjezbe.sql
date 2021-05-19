@@ -10,3 +10,8 @@ select * from katalog where naslov like 'Lara%';
 
 select * from autor where sifra = 18153;
 select * from autor where sifra = 19058;
+
+select * from mjesto;
+
+#postoji li u tablici mjesto jedna država, a da nije Hrvatska?
+select * from mjesto where drzava != 'Hrvatska';

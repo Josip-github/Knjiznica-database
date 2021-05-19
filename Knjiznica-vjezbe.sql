@@ -1,1 +1,1 @@
-select count(*) from autor;
+select * from autor where sifra between 1 and 16000;
